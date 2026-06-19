@@ -1,0 +1,21 @@
+<section id="experience" class="section">
+  <div class="container">
+    <h2>Experience</h2>
+    {% if site.data.experience and site.data.experience.size > 0 %}
+    <ul class="timeline">
+      {% for job in site.data.experience %}
+      <li>
+        <div class="timeline-head">
+          <span class="role">{{ job.role }}</span>
+          <span class="period">{{ job.period }}</span>
+        </div>
+        <div class="org">{{ job.org }}</div>
+        <p>{{ job.summary }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty">Experience coming soon.</p>
+    {% endif %}
+  </div>
+</section>

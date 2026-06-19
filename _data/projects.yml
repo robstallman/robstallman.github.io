@@ -1,0 +1,18 @@
+# ─────────────────────────────────────────────────────────────
+# Projects — add a new one by copying a block below.
+#   title:   project name
+#   blurb:   1–3 sentence description
+#   tags:    list of tech / topics (shown as small pills)
+#   repo:    GitHub URL (optional)
+#   link:    live demo / writeup URL (optional)
+#   year:    used only for your reference / ordering
+# ─────────────────────────────────────────────────────────────
+
+- title: "Example Project"
+  blurb: >
+    Placeholder description. We'll replace these with real writeups drafted
+    from your GitHub repos.
+  tags: ["Python", "TODO"]
+  repo: "https://github.com/robstallman"
+  link: ""
+  year: 2026

@@ -1,0 +1,18 @@
+<section id="publications" class="section section-alt">
+  <div class="container">
+    <h2>Publications</h2>
+    {% if site.data.publications and site.data.publications.size > 0 %}
+    <ol class="pub-list">
+      {% for pub in site.data.publications %}
+      <li>
+        <span class="pub-title">{% if pub.link %}<a href="{{ pub.link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</span>
+        <span class="pub-authors">{{ pub.authors }}</span>
+        <span class="pub-venue">{{ pub.venue }}{% if pub.note %} · {{ pub.note }}{% endif %}</span>
+      </li>
+      {% endfor %}
+    </ol>
+    {% else %}
+    <p class="empty">No publications yet — research in progress. Check back as work is published.</p>
+    {% endif %}
+  </div>
+</section>

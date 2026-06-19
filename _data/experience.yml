@@ -1,0 +1,13 @@
+# ─────────────────────────────────────────────────────────────
+# Experience — add roles newest-first.
+#   role:    job title
+#   org:     company / lab / institution
+#   period:  e.g. "2024 – Present"
+#   summary: 1–2 sentences on what you did / impact
+# ─────────────────────────────────────────────────────────────
+
+- role: "Your Role"
+  org: "Company / Institution"
+  period: "2024 – Present"
+  summary: >
+    Placeholder. Tell me your roles and I'll write these up.

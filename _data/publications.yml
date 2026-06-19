@@ -1,0 +1,14 @@
+# ─────────────────────────────────────────────────────────────
+# Publications — empty for now. Add an entry when you publish:
+#   title:   paper title
+#   authors: "A. Author, R. Stallman, ..."  (bold your own name in the string if you like)
+#   venue:   conference / journal + year
+#   link:    arXiv / DOI / PDF URL (optional)
+#   note:    e.g. "Under review", "Workshop" (optional)
+# ─────────────────────────────────────────────────────────────
+
+# - title: "A Great Paper"
+#   authors: "R. Stallman, J. Doe"
+#   venue: "NeurIPS 2027"
+#   link: "https://arxiv.org/abs/..."
+#   note: ""

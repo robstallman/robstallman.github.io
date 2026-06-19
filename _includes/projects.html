@@ -1,0 +1,26 @@
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+    {% if site.data.projects and site.data.projects.size > 0 %}
+    <div class="cards">
+      {% for p in site.data.projects %}
+      <article class="card">
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.blurb }}</p>
+        {% if p.tags %}
+        <ul class="tags">
+          {% for tag in p.tags %}<li>{{ tag }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+        <div class="card-links">
+          {% if p.repo %}<a href="{{ p.repo }}">Code →</a>{% endif %}
+          {% if p.link %}<a href="{{ p.link }}">Details →</a>{% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="empty">Projects coming soon.</p>
+    {% endif %}
+  </div>
+</section>

@@ -1,0 +1,13 @@
+<section class="hero">
+  <div class="container">
+    <h1>{{ site.name }}</h1>
+    <p class="tagline">{{ site.tagline }}</p>
+    <p class="bio">{{ site.bio }}</p>
+    <div class="hero-actions">
+      {% if site.email %}<a class="btn" href="mailto:{{ site.email }}">Email</a>{% endif %}
+      {% if site.github %}<a class="btn btn-ghost" href="https://github.com/{{ site.github }}">GitHub</a>{% endif %}
+      {% if site.linkedin %}<a class="btn btn-ghost" href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a>{% endif %}
+      {% if site.resume %}<a class="btn btn-ghost" href="{{ site.resume | relative_url }}">Résumé</a>{% endif %}
+    </div>
+  </div>
+</section>

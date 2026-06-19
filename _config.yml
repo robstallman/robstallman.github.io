@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────
+# Site identity — the single place to edit your basic info.
+# ─────────────────────────────────────────────────────────────
+name: Rob Stallman
+tagline: Software Engineer & Researcher
+# Short intro paragraph shown in the About section.
+bio: >
+  I build software and conduct research across systems and machine learning.
+  This site collects the projects I've shipped, the research I'm working on,
+  and how to get in touch.
+
+# Contact / social links. Leave a value blank to hide that link.
+email: robstallman3@gmail.com
+github: robstallman
+linkedin: ""        # e.g. "robstallman"
+scholar: ""         # Google Scholar profile URL
+# Path to your résumé PDF (drop the file in /files/). Leave blank to hide.
+resume: ""          # e.g. "/files/resume.pdf"
+
+# ─────────────────────────────────────────────────────────────
+# Build settings — you normally won't need to touch these.
+# ─────────────────────────────────────────────────────────────
+title: Rob Stallman
+description: Personal site of Rob Stallman — coding projects, research, and experience.
+url: "https://robstallman.github.io"
+baseurl: ""
+
+theme_color: "#2563eb"   # single accent color used across the site
+
+exclude:
+  - README.md
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+plugins:
+  - jekyll-seo-tag
