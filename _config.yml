@@ -15,7 +15,7 @@ github: robstallman
 linkedin: "rob-stallman"        # e.g. "robstallman"
 scholar: ""         # Google Scholar profile URL
 # Path to your résumé PDF (drop the file in /files/). Leave blank to hide.
-CV: "/files/cv.pdf"          # e.g. "/files/resume.pdf"
+resume: "/files/cv.pdf"          # e.g. "/files/resume.pdf"
 
 # ─────────────────────────────────────────────────────────────
 # Build settings — you normally won't need to touch these.
