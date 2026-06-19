@@ -2,17 +2,17 @@
 # Site identity — the single place to edit your basic info.
 # ─────────────────────────────────────────────────────────────
 name: Rob Stallman
-tagline: Software Engineer & Researcher
+tagline: Power Systems Engineer & Researcher
 # Short intro paragraph shown in the About section.
 bio: >
-  I build software and conduct research across systems and machine learning.
-  This site collects the projects I've shipped, the research I'm working on,
-  and how to get in touch.
+  I build technology and conduct research to accelerate the clean energy transition.
+  This site showcases the research I'm working on, technology I've contributed to, and provides
+  a way to get in touch with me if you're interested in connecting.
 
 # Contact / social links. Leave a value blank to hide that link.
 email: robstallman3@gmail.com
 github: robstallman
-linkedin: ""        # e.g. "robstallman"
+linkedin: "rob-stallman"        # e.g. "robstallman"
 scholar: ""         # Google Scholar profile URL
 # Path to your résumé PDF (drop the file in /files/). Leave blank to hide.
 resume: ""          # e.g. "/files/resume.pdf"
